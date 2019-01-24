@@ -9,10 +9,6 @@
         }
     ],
     "repositories": {
-        "dubysa_components": {
-            "type": "vcs",
-            "url": "git@bitbucket.org:dubysa/components.git"
-        },
         "dubysa_framework": {
             "type": "vcs",
             "url": "git@bitbucket.org:dubysa/framework.git"
