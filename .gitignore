@@ -1,0 +1,13 @@
+# BEGIN Automatically updated section, don't edit
+/node_modules
+/vendor
+/.idea
+/.vagrant
+.env*
+package.json
+package-lock.json
+phpunit.xml
+rest-client.private.env.json
+# END
+
+# add Git ignore patterns here (if needed)

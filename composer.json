@@ -1,0 +1,67 @@
+{
+    "name": "dubysa/dubysa",
+    "description": "Dubysa project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vladislav Osmianskij",
+            "email": "vlaosm@gmail.com"
+        }
+    ],
+    "repositories": {
+        "dubysa_components": {
+            "type": "vcs",
+            "url": "git@bitbucket.org:dubysa/components.git"
+        },
+        "dubysa_framework": {
+            "type": "vcs",
+            "url": "git@bitbucket.org:dubysa/framework.git"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "dubysa/framework": "0.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src/",
+            "App\\Tests\\": "app/tests/",
+            "App\\Samples\\": "app/samples/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "dubysa": {
+            "component_pools": {
+                "app/src": {
+                    "module_path": "*/Module.php",
+                    "theme_path": "*/theme.php"
+                },
+                "app/samples": {
+                    "module_path": "*/Module.php",
+                    "testing": true
+                }
+            }
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('temp/.env', '.env');\"",
+            "@php -r \"file_exists('.env.testing') || copy('temp/.env.testing', '.env.testing');\""
+        ],
+        "post-update-cmd": [
+            "@php fresh",
+            "@php run composer-hooks post-update"
+        ],
+        "post-create-project-cmd": [
+            "@php fresh",
+            "@php run composer-hooks post-create-project"
+        ]
+    }
+}
