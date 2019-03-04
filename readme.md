@@ -8,4 +8,4 @@
     cd ~/projects
     
     # install the project
-    composer create-project -n dubysa/dubysa:0.3.* "--repository={\"type\":\"vcs\",\"url\":\"git@bitbucket.org:dubysa/dubysa.git\"}"
+    composer create-project -n dubysa/dubysa:0.4.* "--repository={\"type\":\"vcs\",\"url\":\"git@bitbucket.org:dubysa/dubysa.git\"}"
