@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=7.1.0",
-        "dubysa/framework": "1.1.*"
+        "dubysa/framework": "1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^6"
