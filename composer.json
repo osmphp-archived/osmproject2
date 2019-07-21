@@ -52,10 +52,12 @@
             "@php -r \"file_exists('.env.testing') || copy('temp/.env.testing', '.env.testing');\""
         ],
         "post-update-cmd": [
-            "@php fresh"
+            "@php fresh",
+            "@php run composer-hooks post-update"
         ],
         "post-create-project-cmd": [
-            "@php fresh"
+            "@php fresh",
+            "@php run composer-hooks post-create-project"
         ]
     }
 }
