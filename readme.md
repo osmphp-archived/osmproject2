@@ -1,4 +1,4 @@
-# Dubysa Project #
+# Osm Project #
 
 **TODO: add description here**
 
@@ -8,4 +8,4 @@
     cd ~/projects
     
     # install the project
-    composer create-project -n dubysa/dubysa:1.* "--repository={\"type\":\"vcs\",\"url\":\"git@bitbucket.org:dubysa/dubysa.git\"}"
+    composer create-project -n osmphp/osmproject "--repository={\"type\":\"vcs\",\"url\":\"git@bitbucket.org:osmphp/osmproject.git\"}"

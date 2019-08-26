@@ -1,8 +1,6 @@
-# BEGIN Automatically updated section, don't edit
 *
 !.gitignore
 !index.php
 !.htaccess
-# END
 
 # add Git ignore patterns here (if needed)

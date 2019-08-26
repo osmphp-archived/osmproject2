@@ -2,8 +2,8 @@
 
 # IMPORTANT This file is automatically updated, don't edit
 
-use Manadev\Core\App;
-use Manadev\Framework\Http\Module;
+use Osm\Core\App;
+use Osm\Framework\Http\Module;
 
 $dir = __DIR__;
 require $dir . '/../vendor/autoload.php';

@@ -1,8 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-# IMPORTANT This file is automatically updated, don't edit
-
 function deleteDir($path) {
     if (!is_dir($path)) {
         return;

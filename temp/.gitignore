@@ -1,9 +1,7 @@
-# BEGIN Automatically updated section, don't edit
 *
 !.gitignore
 !.env
 !.env.testing
 !.componentignore
-# END
 
 # add Git ignore patterns here (if needed)
