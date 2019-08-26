@@ -2,6 +2,7 @@
 /node_modules
 /vendor
 /.idea
+/.osmscripts
 /.vagrant
 .env*
 package.json
