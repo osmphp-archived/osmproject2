@@ -1,6 +1,6 @@
 {
-    "name": "dubysa/dubysa",
-    "description": "Dubysa project",
+    "name": "osmphp/osmproject",
+    "description": "Project based on Osm framework",
     "type": "project",
     "authors": [
         {
@@ -9,14 +9,14 @@
         }
     ],
     "repositories": {
-        "dubysa_framework": {
+        "osmphp_framework": {
             "type": "vcs",
-            "url": "git@bitbucket.org:dubysa/framework.git"
+            "url": "git@bitbucket.org:osmphp/framework.git"
         }
     },
     "require": {
         "php": ">=7.1.0",
-        "dubysa/framework": "2.*"
+        "osmphp/framework": "2.*"
     },
     "require-dev": {
         "phpunit/phpunit": "^6"
@@ -33,7 +33,7 @@
         "optimize-autoloader": true
     },
     "extra": {
-        "dubysa": {
+        "osm": {
             "component_pools": {
                 "app/src": {
                     "module_path": "*/Module.php",
