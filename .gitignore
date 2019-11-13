@@ -3,10 +3,10 @@
 /.idea
 /.osmscripts
 /.vagrant
-.env*
-package.json
-package-lock.json
-phpunit.xml
-rest-client.private.env.json
+/.env*
+/package.json
+/package-lock.json
+/phpunit.xml
+/rest-client.private.env.json
 
 # add Git ignore patterns here (if needed)
