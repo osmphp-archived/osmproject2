@@ -8,12 +8,6 @@
             "email": "vlaosm@gmail.com"
         }
     ],
-    "repositories": {
-        "osmphp_framework": {
-            "type": "vcs",
-            "url": "git@bitbucket.org:osmphp/framework.git"
-        }
-    },
     "require": {
         "php": ">=7.2.0",
         "osmphp/framework": "dev-master@dev"
