@@ -2,6 +2,7 @@
     "name": "osmphp/osmproject",
     "description": "Project based on Osm framework",
     "type": "project",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Vladislav Osmianskij",
