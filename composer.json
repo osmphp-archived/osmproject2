@@ -11,10 +11,12 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "osmphp/framework": "^3.0"
+        "osmphp/framework": "^3.0",
+        "osmscripts/osm": "^1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6"
+        "phpunit/phpunit": "^6",
+        "osmscripts/osm-creator": "^1.0"
     },
     "autoload": {
         "psr-4": {
