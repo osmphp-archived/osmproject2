@@ -48,7 +48,7 @@
             "@php -r \"file_exists('.env') || copy('temp/.env', '.env');\"",
             "@php -r \"file_exists('.env.testing') || copy('temp/.env.testing', '.env.testing');\"",
             "@php -r \"chmod('public/files', 0777);\"",
-            "@php -r \"chmod('data', 0777);\""
+            "@php -r \"chmod('data/files', 0777);\""
         ],
         "post-install-cmd": [
             "@php fresh",

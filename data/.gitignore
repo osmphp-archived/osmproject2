@@ -1,4 +1,7 @@
-*
-!.gitignore
+/*
+!/.gitignore
+!/files
+/files/*
+!/files/.gitkeep
 
 # add Git ignore patterns here (if needed)
