@@ -13,17 +13,17 @@
         "php": ">=7.3",
         
         "osmphp/core": "v0.1.x-dev",
-        "osmphp/framework": "v0.1.x-dev",
+        "osmphp/framework2": "v0.1.x-dev",
         "osmphp/data": "v0.1.x-dev",
         "osmphp/app": "v0.1.x-dev",
         "osmphp/bootstrap": "v0.1.x-dev",
         
-        "osmscripts/core": "v0.1.x-dev",
-        "osmscripts/osm": "v0.1.x-dev"
+        "osmscripts/core2": "v0.1.x-dev",
+        "osmscripts/osm2": "v0.1.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^8",
-        "osmscripts/osm-creator": "v0.1.x-dev"
+        "osmscripts/osm-creator2": "v0.1.x-dev"
     },
     "autoload": {
         "psr-4": {
